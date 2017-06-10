@@ -1,0 +1,63 @@
+body {
+  background-color: white;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+h1, h2, h3 {
+font-family: 'Noto Serif', serif;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+a {
+  color: white;
+}
+
+.card .card-action a{
+  color: #4db6ac;
+}
+
+.main-img {
+  width: 300px;
+}
+
+.content {
+  margin-top:50%;
+}
+
+.page-footer {
+  padding-top: 0;
+}
+
+.centered {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.input-field {
+  margin-top:3rem;
+}
+
+.input-field label {
+  color: rgb(62, 62, 62);
+}
+
+.input-field input[type=text]:focus+label {
+  color: rgb(62, 62, 62);
+}
+
+.input-field input[type=text]:focus {
+    border-bottom: 1px solid #ee6e73;
+    box-shadow: 0 1px 0 0 #ee6e73;
+  }
+
+.random {
+  color:rgb(62, 62, 62);
+}
